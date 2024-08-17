@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    background: #0C6FD9;
+    padding-bottom: 72px;
+}
+
+header .header-top{
+    padding: 36px 0 72px 0;
+}
+
+header .header-top .whatsapp {
+    height: 35px;
+    width: 35px;
+}
+
+header .header-top .contact {
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+    letter-spacing: 3%;
+    padding-bottom: 30px;
+}
+
+header p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+header .form-section{
+    background: linear-gradient(150deg, #ffffff, #3251B2);
+    padding: 1px;
+    border-radius: 10px;
+}
+
+header form {
+    background: #2E56B7;
+    border-radius: 10px;
+    padding: 30px;
+}
+header form h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    padding: 30px 0;
+}
+
+header form input,
+header form textarea {
+    background-color: #1C326A !important;
+    border: solid 1px #606F97 !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 256px;
+    width: 421px;
+    resize: none;
+}
+
+header form input {
+    height: 50px;
+}
+
+header form textarea {
+    height: 105px;
+}
+
+header form ::placeholder {
+    color: #fff !important;
+}
+
+header form button {
+    background: #0C6FD9 !important;
+    color: white;
+    height: 50px;
+    border: solid 1px #ffffff !important;
+}
+
+.header-bottom {
+    background: #C0DFFF;
+    height: 20px;
+}
+
+.work {
+    padding: 120px 0;
+}
+
+.work h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.work h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52.08px;
+}
+
+.work p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.choose {
+    padding: 120px 0;
+    background: #FAFAFF;
+}
+
+.choose h3 {
+    color: #0C6FD9;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.choose h2 {
+    color: #14358A;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.choose p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.choose .choose-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.choose .choose-card h3 {
+    color: #006FBA;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 15px 0 10px;
+}
+
+.choose .choose-card p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.software{
+    background: #1B39A6;
+    padding: 120px 0;
+}
+
+.software h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+
+.software h3 span {
+    background: #C0DFFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.software h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 15px 0;
+}
+
+.software p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.services{
+    background: #FAFAFF;
+    padding: 120px 0;
+}
+
+.services h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.services h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.services p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.services .top-text {
+    margin-bottom: 60px;
+}
+
+.services .services-card {
+    background: #FFFFFF;
+    border: solid 1px #E1E3E8;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.services .services-card h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.services .services-card h3 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.services .services-card p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 15px 0;
+}
+
+.services .services-card button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.services .services-card button i {
+    padding-left: 10px;
+}
+
+.services .services-body-1 button {
+    background: #FF5733;
+    border: solid 1px #FF5733;
+}
+
+.services .services-body-2 button {
+    background: #8E44AD;
+    border: solid 1px #8E44AD;
+}
+
+.services .services-body-3 button {
+    background: #28A745;
+    border: solid 1px #28A745;
+}
+
+.services .services-body-4 button {
+    background: #F39C12;
+    border: solid 1px #F39C12;
+}
+
+.services .services-head img{
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.services .card-list-1 p,
+.services .card-list-2 p,
+.services .card-list-3 p,
+.services .card-list-4 p {
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0;
+}
+
+.services .card-list-1 i {
+    color: #FF5733;
+    padding-right: 7px;
+}
+
+.services .card-list-2 i {
+    color: #8E44AD;
+    padding-right: 7px;
+}
+
+.services .card-list-3 i {
+    color: #28A745;
+    padding-right: 7px;
+}
+
+.services .card-list-4 i {
+    color: #F39C12;
+    padding-right: 7px;
+}
+
+.partner {
+    padding: 120px 0;
+}
+
+.partner h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.partner h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 10px 0 24px;
+}
+
+.partner p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.testimonials {
+    padding: 120px;
+    background: #2542AC;
+}
+
+.testimonials h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.testimonials h2 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.solutions {
+    padding: 120px 0;
+}
+
+.solutions h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.solutions h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 10px 0 24px;
+}
+
+.solutions p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.message {
+    padding: 120px 0;
+    background: #FAFAFF;
+}
+
+.message h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.message h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 10px 0 24px;
+}
+
+.message p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 60px;
+}
+
+.message label {
+    color: #68718B;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.message .form-control{
+    background-color: #E5E8EF !important;
+    resize: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.message input {
+    height: 42px;
+}
+
+.message textarea {
+    height: 126px;
+    margin-bottom: 30px;
+}
+
+.message .btn {
+    color: #FFFFFF;
+    background: #0C6FD9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.security {
+    padding: 120px 0;
+}
+
+.security h3 {
+    color: #0C6FD9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.security h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 10px 0 24px;
+}
+
+.security p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer {
+    background: linear-gradient(to left, #1B3CAA, #0C6ED8);
+    padding: 60px 0 50px;
+}
+
+footer img {
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+footer a {
+    color: #ffffff !important;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+footer span {
+    background: #2B69CA;
+    color: transparent;
+    height: 30px;
+    width: 1px;
+}
