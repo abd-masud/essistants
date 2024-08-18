@@ -9,3 +9,13 @@ $('.soft-sliders').slick({
 });
 
 $('.testimonials-sliders').slick();
+
+document.getElementById("projectForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+});
+
+document.getElementById("projectMessage").addEventListener("submit", function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+});

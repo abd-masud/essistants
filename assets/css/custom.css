@@ -6,7 +6,9 @@
 }
 
 header {
-    background: #0C6FD9;
+    background-image: url('../images/header-back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-bottom: 72px;
 }
 
@@ -19,7 +21,11 @@ header .header-top .whatsapp {
     width: 36px;
 }
 
-header .header-top .contact {
+header .header-top a {
+    text-decoration: none;
+}
+
+header .header-top .contacts {
     background: #ffffff;
     height: 28px;
     padding: 0 10px;
@@ -29,9 +35,8 @@ header .header-top .contact {
     z-index: 10;
 }
 
-header .header-top .contact p {
+header .header-top .contacts p {
     color: #000000;
-    text-decoration: none;
     font-weight: 700;
     margin-top: -2px;
     font-size: 14px;
@@ -201,7 +206,11 @@ header form button {
 }
 
 .software {
-    background: #1B39A6;
+    background-image: url(../images/soft-back.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
     padding: 120px 0;
 }
 
@@ -235,9 +244,13 @@ header form button {
     margin-bottom: 60px;
 }
 
+.software .soft-sliders {
+    margin-bottom: 80px;
+}
+
 .services {
     background: #FAFAFF;
-    padding: 120px 0;
+    padding: 120px 0 0 0;
 }
 
 .services h3 {
@@ -398,7 +411,11 @@ header form button {
 
 .testimonials {
     padding: 120px;
-    background: #2542AC;
+    background-image: url(../images/test-back.png);
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
 }
 
 .testimonials h3 {
