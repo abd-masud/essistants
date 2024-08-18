@@ -2,6 +2,7 @@ $('.soft-sliders').slick({
     dots: false,
     autoplay: true,
     infinite: true,
+    arrows: false,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
@@ -32,9 +33,12 @@ $('.soft-sliders').slick({
 });
 
 $('.testimonials-sliders').slick({
-    dots: false,
+    dots: true,
     autoplay: true,
     infinite: true,
+    arrows: true,
+    prevArrow: '<span class="prev-arrow"><i class="fa-solid fa-angle-left"></i></span>',
+    nextArrow: '<span class="next-arrow"><i class="fa-solid fa-angle-right"></i></span>',
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

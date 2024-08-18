@@ -69,7 +69,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: transparent;
+    color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -134,12 +134,16 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 11px;
+    height: 11px;
     margin: 0 5px;
     padding: 0;
 
     cursor: pointer;
+
+    border: solid 1px white;
+    border-radius: 50%;
+    background: transparent;
 }
 
 .slick-dots li button {
@@ -193,6 +197,10 @@
 }
 
 .slick-dots li.slick-active button:before {
-    opacity: .75;
+    opacity: 1;
+    height: 9.5px;
+    width: 9.5px;
+    border-radius: 50%;
     color: black;
+    background-color: white;
 }
