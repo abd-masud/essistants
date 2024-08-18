@@ -42,6 +42,10 @@
         line-height: 40px;
     }
 
+    .software .soft-slide-overlay {
+        width: 97%;
+    }
+
     .services h2 {
         font-size: 30px;
         line-height: 40px;
@@ -300,6 +304,10 @@
         font-size: 40px;
         line-height: 52px;
         margin: 15px 0;
+    }
+
+    .software .soft-slide-overlay {
+        width: 100%;
     }
 
     .services {
