@@ -248,6 +248,14 @@ header form button {
     margin-bottom: 80px;
 }
 
+.software .soft-slide-overlay {
+    margin-top: -170px;
+    background: linear-gradient(to right, #1B39A6, #1B39A6, transparent, transparent, transparent, #1B39A6, #1B39A6);
+    height: 100px;
+    width: 100%;
+
+}
+
 .services {
     background: #FAFAFF;
     padding: 120px 0 0 0;
