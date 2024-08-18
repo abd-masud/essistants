@@ -10,22 +10,42 @@ header {
     padding-bottom: 72px;
 }
 
-header .header-top{
+header .header-top {
     padding: 36px 0 72px 0;
 }
 
 header .header-top .whatsapp {
-    height: 35px;
-    width: 35px;
+    height: 36px;
+    width: 36px;
 }
 
 header .header-top .contact {
     background: #ffffff;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+header .header-top .contact p {
     color: #000000;
     text-decoration: none;
     font-weight: 700;
+    margin-top: -2px;
     font-size: 14px;
-    line-height: 18px;
+}
+
+header .header-top .cont-arrow {
+    background: #ffffff;
+    height: 10px;
+    width: 10px;
+    margin: 10px 0 0 0;
+    left: -3px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 0;
 }
 
 header h1 {
@@ -42,10 +62,16 @@ header p {
     line-height: 32px;
 }
 
-header .form-section{
+header .header-content {
+    padding: 0 50px 0 0;
+    margin-bottom: 0;
+}
+
+header .form-section {
     background: linear-gradient(150deg, #ffffff, #3251B2);
     padding: 1px;
     border-radius: 10px;
+    margin: 0;
 }
 
 header form {
@@ -53,6 +79,7 @@ header form {
     border-radius: 10px;
     padding: 30px;
 }
+
 header form h2 {
     font-weight: 700;
     font-size: 24px;
@@ -80,12 +107,12 @@ header form textarea {
 }
 
 header form ::placeholder {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 header form button {
     background: #0C6FD9 !important;
-    color: white;
+    color: #ffffff;
     height: 50px;
     border: solid 1px #ffffff !important;
 }
@@ -103,7 +130,7 @@ header form button {
     color: #0C6FD9;
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 18px !important;
 }
 
 .work h2 {
@@ -169,7 +196,11 @@ header form button {
     line-height: 26px;
 }
 
-.software{
+.choose .choose-card .hide {
+    color: transparent;
+}
+
+.software {
     background: #1B39A6;
     padding: 120px 0;
 }
@@ -179,7 +210,7 @@ header form button {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
-    
+
 }
 
 .software h3 span {
@@ -201,9 +232,10 @@ header form button {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    margin-bottom: 60px;
 }
 
-.services{
+.services {
     background: #FAFAFF;
     padding: 120px 0;
 }
@@ -239,6 +271,7 @@ header form button {
     border-radius: 10px;
     padding: 24px;
     margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 .services .services-card h4 {
@@ -281,6 +314,10 @@ header form button {
     border: solid 1px #FF5733;
 }
 
+.services .services-body-1 .hide {
+    color: transparent;
+}
+
 .services .services-body-2 button {
     background: #8E44AD;
     border: solid 1px #8E44AD;
@@ -296,7 +333,7 @@ header form button {
     border: solid 1px #F39C12;
 }
 
-.services .services-head img{
+.services .services-head img {
     height: 60px;
     width: 60px;
     margin-right: 15px;
@@ -376,6 +413,11 @@ header form button {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    margin-bottom: 60px;
+}
+
+.testimonials .testimonials-card {
+    background: #ffffff;
 }
 
 .solutions {
@@ -439,7 +481,7 @@ header form button {
     line-height: 26px;
 }
 
-.message .form-control{
+.message .form-control {
     background-color: #E5E8EF !important;
     resize: none;
     font-weight: 500;
@@ -517,4 +559,35 @@ footer span {
     color: transparent;
     height: 30px;
     width: 1px;
+}
+
+.modal .modal-content {
+    padding: 55px 70px;
+}
+
+.modal .modal-content h2 {
+    color: #14358A;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 18px;
+}
+
+.modal .modal-content p {
+    color: #68718B;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 15px 0 30px;
+}
+
+.modal .modal-content button {
+    color: #ffffff;
+    background: #0C6FD9;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border: solid 1px #0C6FD9;
 }
