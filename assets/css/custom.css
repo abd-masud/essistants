@@ -76,7 +76,7 @@ header .form-section {
     background: linear-gradient(150deg, #ffffff, #3251B2);
     padding: 1px;
     border-radius: 10px;
-    margin: 0;
+    margin-bottom: 72px;
 }
 
 header form {
@@ -142,7 +142,7 @@ header form button {
     color: #14358A;
     font-weight: 700;
     font-size: 40px;
-    line-height: 52.08px;
+    line-height: 52px;
 }
 
 .work p {
@@ -299,6 +299,7 @@ header form button {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+    margin: 0;
 }
 
 .services .services-card h3 {
@@ -431,6 +432,7 @@ header form button {
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+    margin: 0;
 }
 
 .testimonials h2 {

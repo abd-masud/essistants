@@ -1,133 +1,391 @@
 @media (min-width: 360px) {
+    header .header-top {
+        padding: 36px 0 50px 0;
+    }
+
+    header .header-top .contacts p {
+        font-size: 12px;
+    }
+
     header h1 {
-        font-size: 35px;
+        font-size: 33px;
         line-height: 50px;
     }
 
     header .header-content {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+        padding: 0 15px 0 0;
+    }
+
+    header form h2 {
+        font-size: 18px;
+        line-height: 31px;
+        padding: 10px 0;
+    }
+
+    header form {
+        padding: 15px;
+    }
+
+    .work h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .choose h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .software h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .services h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .services .services-card h4 {
+        margin: 15px 0 0;
+        line-height: 30px;
     }
 
     .services .services-card h3 {
-        font-weight: 700;
         font-size: 18px;
-        line-height: 34px;
+        line-height: 20px;
+    }
+
+    .services .services-card button {
+        padding: 8px 16px;
+    }
+
+    .partner h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 0 18px;
+    }
+
+    .testimonials h3 {
+        margin: 25px 0 0;
+    }
+
+    .testimonials h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+
+    .solutions h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 0 18px;
+    }
+
+    .message h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 0 16px;
+    }
+
+    .security h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding: 10px 0 18px;
+    }
+
+    header {
+        padding: 0 10px;
     }
 
     .work {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .choose {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .software {
-        padding: 60px 0 40px;
+        padding: 60px 10px 40px;
     }
 
     .services {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .partner {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .testimonials {
-        padding: 60px;
+        padding: 60px 10px;
     }
 
     .solutions {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .message {
-        padding: 60px 0;
+        padding: 60px 10px;
     }
 
     .security {
-        padding: 60px 0;
+        padding: 60px 10px;
+    }
+
+    footer {
+        padding: auto 10px;
     }
 }
 
 @media (min-width: 480px) {
+    header .header-top .contacts p {
+        font-size: 14px;
+    }
+
     header h1 {
-        font-size: 48px;
-        line-height: 70px;
+        font-size: 47px;
+        line-height: 50px;
+    }
+
+    header form h2 {
+        font-size: 24px;
+        line-height: 31px;
+        padding: 30px 0;
+    }
+
+    header form {
+        padding: 20px;
     }
 }
 
 @media (min-width: 576px) {
+
     header h1 {
         font-size: 56px;
         line-height: 80px;
     }
 
     header .form-section {
-        margin: 0 60px;
+        margin: 0 60px 40px;
+    }
+
+    .work h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .choose h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .software h2 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .services h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .services .services-card h4 {
+        font-weight: 700;
+        line-height: 24px;
+        margin: 0;
     }
 
     .services .services-card h3 {
-        font-weight: 700;
         font-size: 24px;
         line-height: 34px;
     }
 
+    .services .services-card button {
+        padding: 12px 24px;
+    }
+
+    .partner h2 {
+        font-size: 36px;
+        line-height: 46px;
+        padding: 10px 0 18px;
+    }
+
+    .testimonials h3 {
+        margin: 20px 0 0;
+    }
+
+    .testimonials h2 {
+        font-size: 36px;
+        line-height: 46px;
+        margin-bottom: 40px;
+    }
+
+    .solutions h2 {
+        font-size: 36px;
+        line-height: 46px;
+        padding: 10px 0 18px;
+    }
+
+    .message h2 {
+        font-size: 36px;
+        line-height: 46px;
+        padding: 10px 0 16px;
+    }
+
+    .security h2 {
+        font-size: 36px;
+        line-height: 46px;
+        padding: 10px 0 18px;
+    }
 }
 
 @media (min-width: 768px) {
+    header h1 {
+        font-size: 60px;
+        line-height: 90px;
+    }
+
+    header form {
+        padding: 30px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    header .header-top {
+        padding: 36px 0 72px 0;
+    }
+
+    header h1 {
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    header .header-content {
+        margin-bottom: 0;
+        padding: 0 50px 0 0;
+    }
+
+    header .form-section {
+        margin: 0;
+        margin-bottom: 72px;
+    }
+
     .work {
         padding: 120px 0;
+    }
+
+    .work h2 {
+        font-size: 40px;
+        line-height: 52px;
     }
 
     .choose {
         padding: 120px 0;
     }
 
+    .choose h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
     .software {
         padding: 120px 0 100px;
+    }
+
+    .software h2 {
+        font-size: 40px;
+        line-height: 52px;
+        margin: 15px 0;
     }
 
     .services {
         padding: 120px 0;
     }
 
+    .services h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .services .services-card h4 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .services .services-card h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
     .partner {
         padding: 120px 0;
+    }
+
+    .partner h2 {
+        font-size: 40px;
+        line-height: 52px;
+        padding: 10px 0 24px;
     }
 
     .testimonials {
         padding: 120px;
     }
 
+    .testimonials h3 {
+        margin: 0;
+    }
+
+    .testimonials h2 {
+        font-size: 38px;
+        line-height: 52px;
+        margin-bottom: 60px;
+    }
+
     .solutions {
         padding: 120px 0;
+    }
+
+    .solutions h2 {
+        font-size: 40px;
+        line-height: 52px;
+        padding: 10px 0 24px;
     }
 
     .message {
         padding: 120px 0;
     }
 
+    .message h2 {
+        font-size: 40px;
+        line-height: 52px;
+        padding: 10px 0 24px;
+    }
+
     .security {
         padding: 120px 0;
     }
-}
 
-@media (min-width: 992px) {
-    header .header-content {
-        margin-bottom: 0;
-    }
-
-    header .form-section {
-        margin: 0;
+    .security h2 {
+        font-size: 40px;
+        line-height: 52px;
+        padding: 10px 0 24px;
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+
+    .testimonials h2 {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 60px;
+    }
+}
 
 @media (min-width: 1200px) {
-
     header h1 {
         font-size: 60px;
         line-height: 90px;
