@@ -81,6 +81,11 @@
         margin-bottom: 40px;
     }
 
+    .testimonials .testimonials-card {
+        margin: 0 15px 30px;
+        padding: 30px 15px;
+    }
+
     .solutions h2 {
         font-size: 30px;
         line-height: 40px;
@@ -97,6 +102,10 @@
         font-size: 30px;
         line-height: 40px;
         padding: 10px 0 18px;
+    }
+
+    .services .top-text {
+        margin-bottom: 30px;
     }
 
     header {
@@ -116,11 +125,11 @@
     }
 
     .services {
-        padding: 60px 10px;
+        padding: 0 10px 60px;
     }
 
     .partner {
-        padding: 60px 10px;
+        padding: 60px 10px 20px;
     }
 
     .testimonials {
@@ -227,6 +236,10 @@
         margin-bottom: 40px;
     }
 
+    .testimonials .testimonials-card {
+        padding: 30px 20px;
+    }
+
     .solutions h2 {
         font-size: 36px;
         line-height: 46px;
@@ -253,6 +266,10 @@
     }
 
     header form {
+        padding: 30px;
+    }
+
+    .testimonials .testimonials-card {
         padding: 30px;
     }
 
@@ -306,6 +323,10 @@
         margin: 15px 0;
     }
 
+    .services .top-text {
+        margin-bottom: 60px;
+    }
+
     .software .soft-slide-overlay {
         width: 100%;
     }
@@ -353,6 +374,10 @@
         margin-bottom: 60px;
     }
 
+    .testimonials .testimonials-card {
+        padding: 30px;
+    }
+
     .solutions {
         padding: 120px 0;
     }
@@ -390,6 +415,10 @@
         font-size: 40px;
         line-height: 52px;
         margin-bottom: 60px;
+    }
+
+    .testimonials .testimonials-card {
+        padding: 30px 36px;
     }
 }
 
